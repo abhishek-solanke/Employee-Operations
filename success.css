@@ -1,0 +1,77 @@
+
+html,body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 100vh;
+    background-color:#ccc;
+    gap: 25px;
+}
+
+.icon-park--success {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cg fill='none' stroke-linecap='round' stroke-linejoin='round' stroke-width='4'%3E%3Cpath fill='%232f88ff' stroke='%23000' d='M24 4L29.2533 7.83204L35.7557 7.81966L37.7533 14.0077L43.0211 17.8197L41 24L43.0211 30.1803L37.7533 33.9923L35.7557 40.1803L29.2533 40.168L24 44L18.7467 40.168L12.2443 40.1803L10.2467 33.9923L4.97887 30.1803L7 24L4.97887 17.8197L10.2467 14.0077L12.2443 7.81966L18.7467 7.83204L24 4Z'/%3E%3Cpath stroke='%23fff' d='M17 24L22 29L32 19'/%3E%3C/g%3E%3C/svg%3E");
+    transition: all 0.5 ease;
+  }
+
+  .succicon{
+    border: 2px solid red;
+    /* position: relative;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    border: 5px solid transparent; 
+    background-color: #4caf50; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease, border-color 0.5s ease, transform 0.3s ease;
+
+  }
+  .headingh1{
+    /* border: 2px solid rebeccapurple; */
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+  }
+  .headingh1 h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    /* width: 100%; */
+  }
+  .sp{
+    color: orange;
+  }
+  .si{
+    height: 100%;
+    width: 100%;
+  }
+  .si:hover{
+    background-color: #66bb6a;
+    border-color: #ffffff; 
+    transform: scale(1.05);
+    border-radius: 50%;
+  }
+.optionsbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* border: solid red; */
+    height: 10vh;
+    width: 50%;
+}
+.btn{
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}

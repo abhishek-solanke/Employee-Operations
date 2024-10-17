@@ -1,0 +1,16 @@
+html,body{
+    margin: 0;
+
+}
+
+
+.mycontainer{
+    height: 50vh;
+    width: 50%;
+    border: 2px solid green;
+}
+.mycontainer h1{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

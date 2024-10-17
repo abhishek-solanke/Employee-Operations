@@ -1,0 +1,129 @@
+body {
+  background-color: #212121;
+}
+.mainheading {
+  margin: auto;
+  margin-bottom: 15px;
+  height: 15vh;
+  width: 90%;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212121;
+  /* position: relative; */
+}
+.mainheading h1 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.mybtns {
+  position: fixed;
+  top: 7%;
+  right: 6%;
+}
+.mainTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  tab-size: 100%;
+  border: 2px solid black;
+  width: 90%;
+  height: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 2px solid #343a40;
+}
+
+.tab th {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: cursive;
+  border: 2px solid #343a40;
+}
+
+.tab tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+
+.tab td {
+  padding: 12px 10px;
+  border: 2px solid #343a40;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: cursive;
+}
+.tab tr:hover {
+  background-color: #d4edda;
+  cursor: pointer;
+}
+
+/* EDIT FAVICON */
+.line-md--edit {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath stroke-dasharray='20' stroke-dashoffset='20' d='M3 21h18'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' dur='0.2s' values='20;0'/%3E%3C/path%3E%3Cpath stroke-dasharray='48' stroke-dashoffset='48' d='M7 17v-4l10 -10l4 4l-10 10h-4'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' begin='0.2s' dur='0.6s' values='48;0'/%3E%3C/path%3E%3Cpath stroke-dasharray='8' stroke-dashoffset='8' d='M14 6l4 4'%3E%3Canimate fill='freeze' attributeName='stroke-dashoffset' begin='0.8s' dur='0.2s' values='8;0'/%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+/* DELETE FAVICON */
+.material-symbols--delete-outline {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7 21q-.825 0-1.412-.587T5 19V6H4V4h5V3h6v1h5v2h-1v13q0 .825-.587 1.413T17 21zM17 6H7v13h10zM9 17h2V8H9zm4 0h2V8h-2zM7 6v13z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.material-symbols--delete-outline:hover {
+  color: red;
+}
+.line-md--edit:hover {
+  color: orange;
+}
+
+/* Search BOX */
+.search {
+  width: 200px;
+  margin: 10px;
+  position: fixed;
+  top: 6%;
+  left: 4.7%;
+}
+.search input[type="search"] {
+  background-color: gray;  
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  color: white;
+}
+.search input[type="search"]:focus {
+  border-color: rgba(0, 217, 255, 0.929);
+}
